@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Handler.c" />
+    <ClCompile Include="PacketTest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="packetH.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9E1D4B0D-2C53-47E7-94B4-E6989A8851CD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -144,13 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\PacketCapture\PacketCapture\PacketTest3\Handler.c" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\PacketCapture\PacketCapture\PacketTest3\PacketTest.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\PacketCapture\PacketCapture\PacketTest3\packetH.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
