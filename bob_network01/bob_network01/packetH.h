@@ -1,5 +1,6 @@
 #pragma once
 #include "pcap.h"
+#include <winsock2.h>
 
 typedef struct ip_address {
 	u_char byte1;
